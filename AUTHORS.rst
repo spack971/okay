@@ -16,3 +16,5 @@ form::
 
 List of copyright holders
 -------------------------
+
+- Jimmy Thrasibule <jimmy@thrasibule.mx>
