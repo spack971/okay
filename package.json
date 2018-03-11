@@ -22,11 +22,14 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/dev-server.js",
-    "build": "node build/build.js",
+    "build": "npm run buildui && node build/build.js",
+    "buildui": "gulp --gulpfile vendor/semantic/gulpfile.js build",
     "start": "npm run dev",
     "yarn": "yarn"
   },
   "dependencies": {
+    "semantic-ui": "^2.3.0",
+    "semantic-ui-vue": "^0.2.5",
     "vee-validate": "^2.0.5",
     "vue": "^2.5.15",
     "vue-i18n": "^7.5.0",
@@ -45,6 +48,8 @@
     "extract-text-webpack-plugin": "^4.0.0",
     "file-loader": "^1.1.10",
     "friendly-errors-webpack-plugin": "^1.6.0",
+    "gulp": "^3.9.0",
+    "gulp-cli": "^2.0.0",
     "html-webpack-plugin": "^3.0.5",
     "node-notifier": "^5.2.0",
     "optimize-css-assets-webpack-plugin": "^4.0.0",
