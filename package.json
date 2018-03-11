@@ -1,0 +1,30 @@
+{
+  "name": "Okay",
+  "version": "0.1.0a",
+  "description": "A Web client to test OAuth, OAuth2 and OpenID Connect server implementations.",
+  "license": "MIT",
+  "keywords": [
+    "client",
+    "oauth",
+    "oauth2",
+    "oauth 1.0",
+    "oauth 2.0",
+    "openid connect",
+    "test"
+  ],
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:spack971/okay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spack971/okay/issues"
+  },
+  "scripts": {
+    "yarn": "yarn"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "yarn": "^1.5.1"
+  }
+}
